@@ -50,3 +50,10 @@ using Microsoft.AspNetCore.Authorization;
 ///////////////////////////////////////////////////////////////////////////////////////////////
     	   app.UseAuthentication();
            app.UseAuthorization();
+//////////////////////////////////////////////////////////////////////////////////////////////
+  "Jwt": {
+    "Key": "Mina-Emad@Radi160348",
+    "Issuer": "MinaEmadRadiServer",
+    "Audience": "MinaEmadRadiClient",
+    "Subject": "MinaEmadRadiAPIAccessToken"
+  }
